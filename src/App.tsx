@@ -1,24 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Numbers} from "./Numbers";
 
 function App() {
+    const ages = [10, 20, 30, 40, 50, 15, 25, 25, 45, 55]
+
+    const predicate = (age: number) => {
+
+    }
+
+    const oldAges = [
+
+    ]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Numbers />
     </div>
   );
 }
